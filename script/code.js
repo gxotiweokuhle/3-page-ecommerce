@@ -57,7 +57,7 @@ let books =[{
   books.forEach((data) => {
     showBooks.innerHTML += `
       <div class= "card col-12 col-md-4 col-sm-6 mb-5" style="width: 400px">
-      <img class= "card-img-top" src="${data.image}" style="400px">
+      <img class= "card-img-top mt-5" src="${data.image}" style="400px">
       <h4 class="card-title mt-5">${data.Name}</h4>
       <div class="card-body mb-5">
       <p class="text-white fw-bold">${data.Description}</p>
